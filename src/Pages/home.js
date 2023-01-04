@@ -2,8 +2,8 @@ import React from 'react';
 
 const Home = () => {
     return (
-        <div>
-            <h1> Log-In To View Your Spotify Stats</h1>
+        <div className='home-header'>
+            <div className='home-text'>Log-In To View Your Spotify Stats</div>
         </div>
     );
 };
